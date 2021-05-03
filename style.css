@@ -18,7 +18,7 @@ body {
 /*----------------navigation section-----------------*/
 .navigation {
 	height: 105px; /*(height of nav bar)*/
-	background-color: yellow; /*(background color for nav bar)*/
+	background-color: white; /*(background color for nav bar)*/
 	position: fixed; /*(keeps nav bar visible when scrolling)*/
 	width: 100%;
 	top: 0;
@@ -54,7 +54,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  background: lightpink;
+  background: white;
   height: 70px;
   width: 70px;
 }
@@ -77,14 +77,14 @@ nav ul li a:visited {
     display: block;
     padding: 0 20px;
     line-height: 70px;
-    background-color: lightpink;
+    background-color: white;
     color: #7B7B7B;
     text-decoration: none;
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
     background-color: bisque;
-    color: lightpink;
+    color: white;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -121,7 +121,7 @@ a.text:hover, a.text:active {
 @media only screen and (max-width: 800px) {
   .nav-mobile {
     display: block;
-      background-color: lightpink;
+      background-color: white;
   }
   nav {
     width: 100%;
@@ -219,7 +219,7 @@ a.text:hover, a.text:active {
 .container {
 	position:relative;
 	text-align: center;
-	color: greenyellow;
+	color: #fac828;
 	font-size: 10vw;
 }
 
@@ -229,7 +229,7 @@ a.text:hover, a.text:active {
 	left: 50%;
 	transform: translate(-50%, -50%);
     font-family: 'Raleway', sans-serif;
-	color:yellow;
+	color:#fac828;
 	top: 50%;
 }
 
@@ -267,7 +267,7 @@ article {
 	line-height: 20px;
 	border-top: thin solid #020202;
 	margin-top: -7px;
-    background-color:lightpink;
+    background-color:white;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -334,7 +334,7 @@ filter: alpha(opacity=70)
 
 /* captions below slideshow*/
 #alt-caption {
-    background-color: lightpink;
+    background-color: white;
     color: black;
     font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .9em;
