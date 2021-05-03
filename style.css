@@ -18,7 +18,7 @@ body {
 /*----------------navigation section-----------------*/
 .navigation {
 	height: 105px; /*(height of nav bar)*/
-	background-color: lightpink; /*(background color for nav bar)*/
+	background-color: yellow; /*(background color for nav bar)*/
 	position: fixed; /*(keeps nav bar visible when scrolling)*/
 	width: 100%;
 	top: 0;
